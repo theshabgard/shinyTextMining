@@ -11,12 +11,10 @@ library(tm)
 library(ggplot2)
 library(RTextTools)
 
-
-
-consumer_key<-'XXXXXXXXXXXXXXXXXXXXX'
-consumer_secret<-'XXXXXXXXXXXXXXXX'
-access_token<- 'XXXXXXXXXXXX'
-access_secret<-'XXXXXXXXXX'
+consumer_key <- "NQk5pHpv1VscDL1cl3o7ZbzWe"
+consumer_secret <- 'ZaBXfF26e1iq1PySQ6Xlo7ffCJxBg52k1Yp6uR51gXL7jMUYDO'
+access_token <- '4795087898-IElIPvC5PBgNQGcnU7h5A0nzmOLKljbelwVoonP'
+access_secret <- 'MQiC8sZnulKiXBBzdkpPiJl6MGYzPrInhUhq7WNVmjnqD'
 
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
